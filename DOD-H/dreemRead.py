@@ -25,9 +25,9 @@ def extract_data(ind, eeg_chan = 'F3_F4', path = ''):
     f1 = h5py.File(files[ind])
     signals = f1['signals']
     eeg = signals['eeg']
-    x = eeg['FP1_F3']
+    # x = eeg['FP1_F3']
     # x = eeg['F3_F4']
-    # x = eeg['F3_M2']
+    x = eeg['F3_M2']
     hyp = f1['hypnogram']
     x = np.array(x)
     return x, hyp
