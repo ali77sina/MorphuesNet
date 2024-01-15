@@ -63,14 +63,14 @@ def get_fold_indices(fold_number, total_folds=25):
     return training_indices, [test_index], validation_indices
 
 for fold in range(1,25):
-    best_model_file = f'/Users/alikavoosi/Desktop/DREEM/dreem_fp1f3_base_model_fold{fold}.h5'
+    best_model_file = f'dreem_ase_model_fold{fold}.h5'
     checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=best_model_file, 
                                                       monitor='val_loss', 
                                                       mode = 'min',
                                                       save_best_only=True,
                                                       save_freq="epoch")
 
-    best_model_file_seq = f'/Users/alikavoosi/Desktop/DREEM/dreem_seq_fp1f3_model_fold{fold}.h5'
+    best_model_file_seq = f'dreem_seq_model_fold{fold}.h5'
     checkpoint_callback_seq = tf.keras.callbacks.ModelCheckpoint(filepath=best_model_file_seq, 
                                                       monitor='val_loss', 
                                                       mode = 'min',
