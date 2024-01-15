@@ -1,6 +1,6 @@
 This folder contains the scripts to train the network on the Dreem Open Datasets (DOD) with the healthy participants. 
 
-1. Download.py: Downloads the DOD-H dataset into the current directory. (you need to setup correct AWS credentials to download these files, or you can download them manually from the "dreem-dod-h" AWS S3 bucker)
+1. Download.py: Downloads the DOD-H dataset into the current directory. (you need to setup correct AWS credentials to download these files, or you can download them manually from the "dreem-dod-h" AWS S3 bucket at https://dreem-dod-h.s3.eu-west-3.amazonaws.com/index.html)
 
 
 2. dreemRead.py: Functions to extract data from DOD files, including labels and raw time series signals. Here, you can change what channel will be used for classification. for 1v1 comparison, F3-M2 was used in the paper.
