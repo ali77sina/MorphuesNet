@@ -17,7 +17,7 @@ The CNN is first trained on the data. The data is downsampled to 100Hz, and band
 
 
 
-![image](https://github.com/ali77sina/MorphuesNet/assets/54308350/f4dd696d-b601-4053-a425-338a31e534d4)
+![image](https://github.com/ali77sina/MorphuesNet/assets/54308350/43a19abf-d638-4684-bcd6-dc1c552192f9)
 
 
 Fig. 1: example output of the 2 models on fold number 2. figure shows the model's performance on the test patient (the one left out of train-val process)
