@@ -28,3 +28,15 @@ Fig. 1: example output of the 2 models on fold number 2. figure shows the model'
 
 
 Fig. 2: example output on fold 14. results shown are for the test set.
+
+
+**--Addition of DOD-O (unhealthy subgroup)**
+
+This is in addition to the original DOD-H dataset. this subset includes 55 patients with obstructive sleep apnea, and used to show case the capability of the model. 
+
+
+![image](https://github.com/ali77sina/MorphuesNet/assets/54308350/c236c212-4083-4b65-9f90-3aa38c4005bc)
+
+
+
+Fig. 3: Test set performance on a patient with obstructive sleep apnea
