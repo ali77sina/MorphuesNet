@@ -14,3 +14,7 @@ This folder contains the scripts to train the network on the Dreem Open Datasets
 
 **Desciption**
 The CNN is first trained on the data. The data is downsampled to 100Hz, and band-passed between 0.5 and 40 Hz. After the training of the CNN, it is quantized and used to generate the Logits. These are then used to train the sequence learner. sequence lengths were set at 12, but it can be changed.
+
+
+
+![image](https://github.com/ali77sina/MorphuesNet/assets/54308350/f3307268-f1a8-418d-8325-d30f391bdd47)
