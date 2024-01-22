@@ -1,5 +1,5 @@
 # MorphuesNet
-Repository to re-create metrics and figures for paper: MorphuesNet
+Repository to re-create metrics and figures for paper: MorphuesNet: https://arxiv.org/abs/2401.10284
 
 <img width="804" alt="image" src="https://github.com/ali77sina/MorphuesNet/assets/54308350/0a8bf16f-c019-4312-a569-840654405ada">
 
